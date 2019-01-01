@@ -40,7 +40,7 @@ const siteConfig = {
     headerLinks: [
         {doc: 'gstarted', label: 'Getting Started'},
         {doc: 'userguide', label: 'User Guide'},
-        {doc: 'api', label: 'API'},
+        {doc: 'api', label: 'API Reference'},
     ],
 
     // If you have users set above, you add it here:
@@ -72,7 +72,7 @@ const siteConfig = {
     */
 
     // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-    copyright: `Copyright © ${new Date().getFullYear()} Dryad and Naiad Software LLC.`,
+    copyright: `Copyright © 2018 - ${new Date().getFullYear()} Dryad and Naiad Software LLC.`,
 
     highlight: {
         // Highlight.js theme to use for syntax highlighting in code blocks.
