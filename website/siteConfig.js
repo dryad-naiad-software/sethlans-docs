@@ -27,7 +27,7 @@ const siteConfig = {
 
     // For no header links in the top nav bar -> headerLinks: [],
     headerLinks: [
-        {doc: 'gstarted', label: 'Getting Started'},
+        {doc: 'installation', label: 'Getting Started'},
         {doc: 'userguide', label: 'User Guide'},
         {doc: 'api', label: 'API Reference'},
     ],
@@ -78,7 +78,7 @@ const siteConfig = {
     // enableUpdateBy: true,
 
     // Show documentation's last update time.
-    // enableUpdateTime: true,
+    //enableUpdateTime: true,
 
     // You may provide arbitrary config keys to be used as needed by your
     // template. For example, if you need your repo's URL...
