@@ -10,7 +10,7 @@
 
 
 const siteConfig = {
-    title: 'Sethlans', // Title for your website.
+    title: 'Sethlans Docs', // Title for your website.
     tagline: 'Documentation and API Guide',
     url: 'https://sethlans-docs.dryadandnaiad.com', // Your website URL
     baseUrl: '/', // Base URL for your project */

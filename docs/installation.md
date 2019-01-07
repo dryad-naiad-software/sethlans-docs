@@ -3,4 +3,9 @@ id: installation
 title: Installation
 ---
 
-My new content here..
+Sethlans supports Windows, Linux and macOS operating systems. 
+
+## Prerequisites
+ - Java 8 - Included with Windows and macOS releases.
+ - NVIDIA or AMD Graphics drivers required for GPU rendering
+ - Only 64-bit systems are supported
