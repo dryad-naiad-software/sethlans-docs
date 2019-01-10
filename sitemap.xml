@@ -3,6 +3,9 @@
 <url> <loc>https://sethlans-docs.dryadandnaiad.com/help</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sethlans-docs.dryadandnaiad.com/en/help" /> </url>
 <url> <loc>https://sethlans-docs.dryadandnaiad.com/index</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sethlans-docs.dryadandnaiad.com/en/index" /> </url>
 <url> <loc>https://sethlans-docs.dryadandnaiad.com/docs/api</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sethlans-docs.dryadandnaiad.com/docs/api" /> </url>
+<url> <loc>https://sethlans-docs.dryadandnaiad.com/docs/gettingsethlans</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sethlans-docs.dryadandnaiad.com/docs/gettingsethlans" /> </url>
 <url> <loc>https://sethlans-docs.dryadandnaiad.com/docs/installation</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sethlans-docs.dryadandnaiad.com/docs/installation" /> </url>
+<url> <loc>https://sethlans-docs.dryadandnaiad.com/docs/requirements</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sethlans-docs.dryadandnaiad.com/docs/requirements" /> </url>
+<url> <loc>https://sethlans-docs.dryadandnaiad.com/docs/terminology</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sethlans-docs.dryadandnaiad.com/docs/terminology" /> </url>
 <url> <loc>https://sethlans-docs.dryadandnaiad.com/docs/userguide</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sethlans-docs.dryadandnaiad.com/docs/userguide" /> </url>
 </urlset>
