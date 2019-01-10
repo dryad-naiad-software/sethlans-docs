@@ -12,7 +12,7 @@ Sethlans supports Windows, Linux and macOS operating systems.  There are 3 diffe
 ## Download Sethlans
 The latest version of Sethlans can be found [here](https://github.com/dryad-naiad-software/sethlans/releases).  
 There are OS specific packages and a jar file that can be run independently as long as Java 8 is installed.
--   Sethlans-*-Installer.exe - Windows Installer - Includes Java 8 JRE u191
--   Sethlans-*-macOS.zip - macOS binary - Includes Java 8 JRE u191
+-   Sethlans-*-Installer.exe - Windows Installer - Includes Java 8 JRE
+-   Sethlans-*-macOS.zip - macOS binary - Includes Java 8 JRE
 -   Sethlans-*.run - Linux binary package
 

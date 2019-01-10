@@ -30,10 +30,37 @@ The following dependencies are recommended for **SERVER** mode:
 
  - Open Sethlans dmg.
  - Copy Sethlans to Applications folder
- - Double Click Sethlans
+ - Double-click Sethlans
 
 ## Sethlans Setup
 On Windows and macOS systems the Sethlans system tray icon provides a shortcut that automatically opens a browser to Sethlans.
 
  - Via a browser, navigate to https://localhost:7443
+ - Once the Sethlans Setup Wizard appears you'll have the option to select a mode.
+	 - **SERVER** - Creation of render projects, management of render queues, provides notifications for projects, manages nodes.
+	 - **NODE** - Receives rendering tasks from the server, returns finished products back to the server.
+	 - **DUAL** - Combination of a server and a node. Allows both the creation and management of render queues and the rendering of tasks.
+ - The wizard will then prompt you to create an admin account to manage Sethlans.  **SERVER** mode will ask for an email address as it has the ability to send email notifications to users.  This option is not available in **NODE**.
+### Server Settings
+ - **Blender Binary Version**:
+	 - The wizard will prompt for an initial Blender version that will be distributed to nodes and associated with projects.
+### Node Settings
+- **Compute Method**:
+	- If a node has a supported graphics card the options of GPU and CPU & GPU mode will be available. Default option is CPU.
+- **CPU Settings**:
+	- **Rendering Cores** - The number of rendering cores available to Blender.  In CPU & GPU mode the maximum number of cores is reduced by 1 which is reserved to better process GPU rendering requests.
+	- **CPU Tile Size** - Size of tiles used for CPU rendering.
+- **GPU Settings**:
+	- The wizard will present detected and supported GPU devices present in the system.  Multiple GPU's can be selected. 
+	 - **Combine GPUs**:  
+		 - **Enabled** -  All selected GPU's are used during rendering of a single task.
+		 - **Disabled** -  Each GPU will be given a task to render individually.
+### Network Settings
+- **IP Address** - Address that is used for communication between Sethlans.  
+- **Port** - Communication port used by Sethlans. Default 7443
+- **Sethlans URL** - Used for email links and communications
+### Advanced
+- **Sethlans Home Directory** - All Sethlans data and projects will be stored here.
+- **Log Level** - Configures Sethlans log level
+
 
