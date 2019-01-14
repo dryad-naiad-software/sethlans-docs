@@ -5,21 +5,14 @@ title: Installation
 ## Windows Initial Setup
 
  - Double click on the Sethlans Installation executable file. 
- 
- ![installer](assets/windows/sethlans_select.PNG)
- 
  - Windows will prompt to make changes to the system. 
  
  ![uac](assets/windows/uac.PNG)
  - The default installation path is C:\Program Files\Sethlans
- 
- ![install location](assets/windows/sethlans_selection.PNG)
  - Once the installation has completed you have the option to create a shortcut for all users or the current user. 
  
  ![shortcut choice](assets/windows/shortcuts.PNG)
  - Start Sethlans via the Sethlans shortcut.
- 
- ![shortcut](assets/windows/installed_shortcut.PNG)
 
 ## Linux Initial Setup
 Depending on whether you will install Sethlans as a **SERVER** or **NODE** there are certain dependencies that will need to be installed in order for Sethlans to function properly. 
