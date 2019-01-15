@@ -31,15 +31,28 @@ The following dependencies are recommended for **SERVER** mode:
 - ffmpeg
 
 ## macOS Initial Setup
-
- - Open Sethlans dmg.
+ - Extract Sethlans DMG from downloaded zip file.
+ - Open Sethlans DMG.
  - Copy Sethlans to Applications folder
- - Double-click Sethlans
+ ![copy](assets/mac/copy.PNG)
+ - Double-click on Sethlans
+ - Acknowledge the unidentified developer notice
+ 
+ ![notice](assets/mac/unidentified.PNG)
+ - Navigate to System Preferences > Security and Privacy
+ - Click on "Open Anyway"
+
+ ![settingsnadprivacy](assets/mac/settingsandprivacy.PNG)
+ - Navigate to Applications. Double-click on Sethlans
+ - Click Open
+  
+ ![open](assets/mac/sethlans_open.PNG)
 
 ## Sethlans Setup
 On Windows and macOS systems the Sethlans system tray icon provides a shortcut that automatically opens a browser to Sethlans.
 
  - Via a browser, navigate to https://localhost:7443
+ ![initalsetupscreen](assets/setup/setup_screen.PNG)
  - Once the Sethlans Setup Wizard appears you'll have the option to select a mode.
 	 - **SERVER** - Creation of render projects, management of render queues, provides notifications for projects, manages nodes.
 	 - **NODE** - Receives rendering tasks from the server, returns finished products back to the server.
