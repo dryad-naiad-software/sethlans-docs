@@ -57,7 +57,7 @@ class Footer extends React.Component {
                         {/*</a>*/}
 
                         <a
-                            href="https://twitter.com/"
+                            href="https://twitter.com/dryadandnaiad"
                             target="_blank"
                             rel="noreferrer noopener">
                             Twitter
@@ -65,7 +65,7 @@ class Footer extends React.Component {
                     </div>
                     <div>
                         <h5>More</h5>
-                        <a href="https://youtube.com">Video Tutorials</a>
+                        <a href="https://www.youtube.com/channel/UCAJJNyB064n8RyWhO992eDg">Video Tutorials</a>
                         <a href="https://github.com/">GitHub</a>
                         <a
                             className="github-button"

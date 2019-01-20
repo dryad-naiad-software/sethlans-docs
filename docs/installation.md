@@ -8,7 +8,7 @@ title: Installation
  - Windows will prompt to make changes to the system. 
  
 ![uac](assets/windows/uac.PNG)
- 
+
  - The default installation path is C:\Program Files\Sethlans
  - Once the installation has completed you have the option to create a shortcut for all users or the current user. 
  
@@ -106,4 +106,11 @@ On Windows and macOS systems the Sethlans system tray icon provides a shortcut t
 - **Use SMTP AUthentication**
     - **Enabled** - Use a username and password to authentication to SMTP server.
     - **Disabled** - Does not authenticate to SMTP server.
+
+### Summary and Completion
+![summary](assets/setup/summary_screen.PNG)
+- Review the Summary Page and if satisfied click **Finish**.
+
+![restart](assets/setup/finished.PNG)  
+- Settings will be implemented and Sethlans will restart.  After 30 seconds the login page will be displayed.
 
