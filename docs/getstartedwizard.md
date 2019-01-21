@@ -21,3 +21,12 @@ A node needs to be added to a server before projects can render on it.  Once com
 
 This screen is displayed after login.  Once the Get Started Wizard has been run it is disabled.  
 * Show this wizard instead of Dashboard - Toggles the Get Started Wizard.
+
+## Server to Node Authorization Screen
+![nodeadd](assets/gswizard/nodeadd.PNG)
+
+## Node Selection Summary Screen
+![node_summary](assets/gswizard/node_selection.PNG)
+
+## Completion
+![complete](assets/gswizard/complete.PNG)
