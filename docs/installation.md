@@ -56,7 +56,9 @@ The following dependencies are recommended for **SERVER** mode:
 On Windows and macOS systems the Sethlans system tray icon provides a shortcut that automatically opens a browser to Sethlans.
 ![initalsetupscreen](assets/setup/setup_screen.PNG)
 
- - Via a browser, navigate to https://localhost:7443
+
+
+ - The initial port **7443** via **HTTPS**. For example via a browser, navigate to **https://localhost:7443**
  - Once the Sethlans Setup Wizard appears you'll have the option to select a mode.
 	 - **SERVER** - Creation of render projects, management of render queues, provides notifications for projects, manages nodes.
 	 - **NODE** - Receives rendering tasks from the server, returns finished products back to the server.
