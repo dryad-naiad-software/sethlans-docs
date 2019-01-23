@@ -24,9 +24,31 @@ This screen is displayed after login.  Once the Get Started Wizard has been run 
 
 ## Server to Node Authorization Screen
 ![nodeadd](assets/gswizard/nodeadd.PNG)
+### Credentials
+Administrator account that is present on the **NODES** to be added to the server.
+This must be the same account on all nodes for this wizard to work.
+
+### Nodes
+A list of nodes to authorize and add to the server. 
+Nodes can be added via IP addresses or hostnames and will connect via the port given.
+
 
 ## Node Selection Summary Screen
 ![node_summary](assets/gswizard/node_selection.PNG)
 
+If the nodes given in the previous list exist and the credentials match, the server will be able to poll the node and obtain it's information.  
+
+* Hostname - Name of the node obtained from the hostname of the computer.
+* IP Address - This will be the IP address that the node displays.
+* Port - Communication Port of node.
+* OS - Operating System of node.
+* Compute Methods - The configured compute method for this node.
+* CPU - If node compute method is CPU or CPU & GPU, this will be populated
+* Selected Core(s) - Cores available for rendering when CPU or CPU & GPU methods are available
+* Selected GPU(s) - If node compute method is GPU or CPU & GPU this information will be populated.
+
 ## Completion
 ![complete](assets/gswizard/complete.PNG)
+
+Once nodes have been submitted and added properly the wizard will display a banner that it has completed.  Clicking on **Close Wizard** will also disable the Get Started Wizard from displaying on login.  
+
