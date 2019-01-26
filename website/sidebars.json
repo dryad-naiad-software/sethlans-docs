@@ -6,7 +6,8 @@
       "terminology",
       "installation",
       "gstartedwizard",
-      "nodebench"
+      "nodebench",
+      "createproject"
     ]
   }
 }
