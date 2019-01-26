@@ -20,3 +20,5 @@ When a node is added to Sethlans a benchmark request is sent to the node in orde
 
 
 ![benchmark](assets/gswizard/benchmark_complete.PNG)
+
+After benchmarking has completed, the Benchmark section will be populated with values. CPU, CUDA and OPENCL are for CPU, NVIDIA and AMD benchmarks respectively.
