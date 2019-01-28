@@ -18,6 +18,7 @@ In order to create a new project select the **New Project** button located in th
 This will open the **Create Project Wizard**.
 
 ## Create Project Wizard
+### Upload Project
 ![create_wizard](assets/projects/create_project_wiz_1.PNG)
 
 The first screen is the Project Upload screen.  From here you will upload .blend files and zip files.
@@ -28,15 +29,29 @@ Clicking on the **Choose** button will bring up an Open Dialog.  Find and select
 
 **Note:** You can select whichever file. Sethlans will control whether the CPU or GPU is used.
 
-Once selected click on the button with the name of the file in order to upload it to the Sethlans server.
+Click on the button with the name of the file in order to upload it to the Sethlans server.
 ![create_wizard](assets/projects/create_project_wiz_2.PNG)
 
+### Project Details
 Once the file is uploaded the Project Details portion of the wizard will be presented.
 ![create_wizard](assets/projects/create_project_wiz_3.PNG)
+* Project Name
+* Blender Version
+* Output Format
+* Project Type
 
+### Render Settings
 Next the Rendering portion of the wizard will be presented.
 ![create_wizard](assets/projects/create_project_wiz_4.PNG)
+* Rendering Engine
+* Render On
+* Samples (Cycles Only)
+* Render Resolution
+* Render Image Scaling
+* Use Parts
+* Number of Parts
 
+### Summary
 Finally the Summary will be presented
 ![create_wizard](assets/projects/create_project_wiz_5.PNG)
 
