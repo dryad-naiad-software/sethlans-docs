@@ -65,7 +65,8 @@ class HomeSplash extends React.Component {
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
               <Button href={docUrl('gettingsethlans')}>Getting Started</Button>
-              <Button href="https://www.youtube.com" target="_blank">Video Tutorials</Button>
+              <Button href="https://www.youtube.com/channel/UCAJJNyB064n8RyWhO992eDg" target="_blank">Video
+                  Tutorials</Button>
               <Button href="https://github.com/dryad-naiad-software/sethlans/issues"
                       target="_blank">Issues(Bugs)</Button>
           </PromoSection>
