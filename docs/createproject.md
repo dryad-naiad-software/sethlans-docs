@@ -33,27 +33,28 @@ Click on the button with the name of the file in order to upload it to the Sethl
 ![create_wizard](assets/projects/create_project_wiz_2.PNG)
 
 ### Project Details
-Once the file is uploaded the Project Details portion of the wizard will be presented.
 ![create_wizard](assets/projects/create_project_wiz_3.PNG)
-* Project Name
-* Blender Version
-* Output Format
-* Project Type
+* Project Name - Name of the project in Sethlans
+* Blender Version - Dropdown list of installed Blender versions on server
+* Output Format - Render Output Format.  PNG for Still Image. PNG, AVI, MP4 for Animations.
+* Project Type - Still Image and Animation are the available options.
+* Start Frame - First frame to be rendered.  For Still Image this is the frame of the image you wish to render.  By default frame 1 is used.
+* End Frame - Last frame to be rendered.  Available only when Animation is selected.
+* Frame Step - Number of frames to advance animation.  By default this is 1. Allows you to skip frames in animations.
 
 ### Render Settings
-Next the Rendering portion of the wizard will be presented.
 ![create_wizard](assets/projects/create_project_wiz_4.PNG)
-* Rendering Engine
-* Render On
-* Samples (Cycles Only)
-* Render Resolution
-* Render Image Scaling
-* Use Parts
-* Number of Parts
+* Rendering Engine - Choice of Blender Render and Cycles.
+* Render On - Rendering Method.  Project can be CPU only, GPU only and CPU & GPU. 
+* Samples (Cycles Only) - Number of samples to render with.
+* Render Resolution - Resolution used for rendering dimensions
+* Render Image Scaling - This is a percentage of of the above setting.  Useful for a test render where you can set to a lower percentage for faster rendering.
+* Use Parts - Breaks a frame into parts
+* Number of Parts - Number of pieces of a frame that will then be sent to nodes to render.   Range is from 4 to 144. (Square root numbers starting from 4)
 
 ### Summary
-Finally the Summary will be presented
 ![create_wizard](assets/projects/create_project_wiz_5.PNG)
+Once all selections have been made you'll be presented with a summary that you can review before submitting it to the server.  
 
 
 
