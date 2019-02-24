@@ -17,8 +17,9 @@ title: Installation
  - Start Sethlans via the Sethlans shortcut.
 
 ## Linux Initial Setup
-Depending on whether you will install Sethlans as a **SERVER** or **NODE** there are certain dependencies that will need to be installed in order for Sethlans to function properly. 
+Depending on whether you will install Sethlans as a **SERVER** or **NODE** there are certain dependencies that should be installed in order for Sethlans to function properly. 
 
+### Dependencies
 The following dependencies are recommended for **NODE** and **DUAL** mode(for Blender to work properly):
 
 - libsdl1.2
@@ -29,9 +30,25 @@ The following dependencies are recommended for **NODE** and **DUAL** mode(for Bl
 - libxrender1
 - libxfixes3
 
-The following dependencies are recommended for **SERVER** mode:
-- ffmpeg
+**If any version of Blender is already installed then the above dependencies should be present already on the system**
 
+The following dependencies are recommended for **SERVER** mode:
+- ffmpeg*
+
+**Sethlans already bundles a standalone version of ffmpeg**
+
+### Commands
+Download Sethlans using wget or similar command
+
+`$ wget https://github.com/dryad-naiad-software/sethlans/releases/download/v1.0.0-beta1/Sethlans-1.0.0.1994.run`
+
+Mark downloaded file as executable
+
+`$ chmod +x Sethlans-1.0.0.1994.run`
+
+Start Sethlans
+
+`$ ./Sethlans-1.0.0.1994.run &`
 ## macOS Initial Setup
  - Extract Sethlans DMG from downloaded zip file.
  - Open Sethlans DMG.
